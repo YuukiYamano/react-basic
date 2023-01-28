@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Article from './components/Article';
 import './App.css';
 
 function App() {
@@ -17,6 +18,20 @@ function App() {
         >
           Learn React
         </a>
+
+        <Article 
+          title={'test title1'}
+          content={'test content1'}
+        />
+        <Article 
+          title={'test title2'}
+          content={'test content2'}
+        />
+        <Article 
+          title={'test title3'}
+          content={'test content3'}
+        />
+        
       </header>
     </div>
   );
