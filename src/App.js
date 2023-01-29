@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { Article } from './components';
 import './App.css';
 
 function App() {
@@ -17,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+
+        <Article 
+        title={'Test Title'}
+        content ={'Test Content'}
+        />
 
       </header>
     </div>
