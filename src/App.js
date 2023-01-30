@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import { Article } from './components';
 import './App.css';
+import TextInput from './components/TextInput';
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
         <Article 
         title={'Test Title'}
         content ={'Test Content'}
+        />
+
+        <TextInput
+        
         />
 
       </header>
