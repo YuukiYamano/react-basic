@@ -4,7 +4,6 @@ import {Content, Title,PublishButton} from './index'
 const Article = (props)=>{
     const [isPublished,setIsPublished] = useState(false)
     const publishArticle = () =>{
-        console.log(1111111);
         setIsPublished(true)
     }
     return(
